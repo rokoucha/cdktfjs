@@ -1,0 +1,11 @@
+{
+  "language": "typescript",
+  "app": "pnpm run build && pnpm run start",
+  "projectId": "b461ac95-72b6-4186-a4bb-a06fb735b6e7",
+  "sendCrashReports": "true",
+  "terraformProviders": [
+    "koki-develop/js@~> 0.10"
+  ],
+  "terraformModules": [],
+  "context": {}
+}

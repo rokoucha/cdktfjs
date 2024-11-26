@@ -1,0 +1,26 @@
+{
+  "name": "cdktfjs",
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
+  "license": "CC0-1.0",
+  "private": true,
+  "dependencies": {
+    "@cdktf/provider-local": "^10.1.1",
+    "cdktf": "^0.20.9",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.2",
+    "cdktf-cli": "^0.20.9",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "deploy": "cdktf deploy",
+    "diff": "cdktf diff",
+    "exec": "node ./cdktf.out/stacks/jstf/main.js",
+    "start": "node --enable-source-maps ./dist/src/main.js",
+    "type-check": "tsc --noEmit"
+  }
+}
